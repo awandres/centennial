@@ -144,6 +144,10 @@ function Router($stateProvider, $urlRouterProvider, $locationProvider, $window) 
     url: '/events',
     templateUrl: 'assets/js/views/events.html'
   })
+  .state('Toolkit', {
+    url: '/toolkit',
+    templateUrl: 'assets/js/views/toolkit.html'
+  })
 
   // $urlRouterProvider.otherwise('/')
   $locationProvider.html5Mode(true)
